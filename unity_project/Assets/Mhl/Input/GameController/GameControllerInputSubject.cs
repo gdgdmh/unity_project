@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mhl;
 
-namespace Mhl
+namespace Mhl.Input.GameController
 {
     /// <summary>
     /// ゲームコントローラー入力サブジェクト
     /// </summary>
-    public class GameControllerInputSubject : GenericSubject<Mhl.IGameControllerInputObserverable>
+    public class GameControllerInputSubject : Mhl.System.Observer.GenericSubject<Mhl.Input.GameController.IGameControllerInputObserverable>
     {
         /// <summary>
         /// 方向キープレスイベント通知

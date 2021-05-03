@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Mhl
+namespace Mhl.Input.Touch
 {
     /// <summary>
     /// タッチ情報クラス

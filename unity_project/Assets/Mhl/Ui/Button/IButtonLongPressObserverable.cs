@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Mhl
+namespace Mhl.Ui.Button
 {
     /// <summary>
     /// ボタン長押し通知インターフェース

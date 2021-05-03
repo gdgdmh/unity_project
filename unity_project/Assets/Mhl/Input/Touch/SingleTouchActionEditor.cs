@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Mhl
+namespace Mhl.Input.Touch
 {
-    public class SingleTouchActionEditor : Mhl.ISingleTouchActionable
+    public class SingleTouchActionEditor : Mhl.Input.Touch.ISingleTouchActionable
     {
         protected static readonly int CurrentFrame = 0;
         protected static readonly int Before1Frame = 1;
@@ -70,10 +70,10 @@ namespace Mhl
         private void UpdateNone()
         {
             // 押したりしていない状態で押されたらBeganへ移行
-            if (Input.GetMouseButtonDown(0) == true)
+            if (UnityEngine.Input.GetMouseButtonDown(0) == true)
             {
                 touchInfo[CurrentFrame].TouchId = 0;
-                touchInfo[CurrentFrame].Position = Input.mousePosition;
+                touchInfo[CurrentFrame].Position = UnityEngine.Input.mousePosition;
                 touchInfo[CurrentFrame].TouchStatus = TouchInfo.Status.Began;
             }
             else
@@ -89,8 +89,8 @@ namespace Mhl
         private void UpdateBegan()
         {
             // 位置を設定
-            touchInfo[CurrentFrame].Position = Input.mousePosition;
-            if (Input.GetMouseButton(0) == true)
+            touchInfo[CurrentFrame].Position = UnityEngine.Input.mousePosition;
+            if (UnityEngine.Input.GetMouseButton(0) == true)
             {
                 if (touchInfo[CurrentFrame].EqualPosition(touchInfo[Before1Frame]))
                 {
@@ -113,8 +113,8 @@ namespace Mhl
         /// </summary>
         private void UpdateMoved()
         {
-            touchInfo[CurrentFrame].Position = Input.mousePosition;
-            if (Input.GetMouseButton(0) == false)
+            touchInfo[CurrentFrame].Position = UnityEngine.Input.mousePosition;
+            if (UnityEngine.Input.GetMouseButton(0) == false)
             {
                 // 持ち上げられたのでEndedへ
                 touchInfo[CurrentFrame].TouchStatus = TouchInfo.Status.Ended;
@@ -138,8 +138,8 @@ namespace Mhl
         /// </summary>
         private void UpdateStationary()
         {
-            touchInfo[CurrentFrame].Position = Input.mousePosition;
-            if (Input.GetMouseButton(0) == false)
+            touchInfo[CurrentFrame].Position = UnityEngine.Input.mousePosition;
+            if (UnityEngine.Input.GetMouseButton(0) == false)
             {
                 // 持ち上げられたのでEndedへ
                 touchInfo[CurrentFrame].TouchStatus = TouchInfo.Status.Ended;
@@ -164,7 +164,7 @@ namespace Mhl
         private void UpdateEnded()
         {
             // 終わった後に押されたらBeganへ移行
-            if (Input.GetMouseButton(0) == false)
+            if (UnityEngine.Input.GetMouseButton(0) == false)
             {
                 // デフォルト状態に戻す
                 touchInfo[CurrentFrame].Clear();
@@ -174,7 +174,7 @@ namespace Mhl
                 // タッチIDは0固定
                 touchInfo[CurrentFrame].TouchId = 0;
                 // 位置
-                touchInfo[CurrentFrame].Position = Input.mousePosition;
+                touchInfo[CurrentFrame].Position = UnityEngine.Input.mousePosition;
                 touchInfo[CurrentFrame].TouchStatus = TouchInfo.Status.Began;
             }
         }

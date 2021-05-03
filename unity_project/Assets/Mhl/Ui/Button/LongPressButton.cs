@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Mhl
+namespace Mhl.Ui.Button
 {
     /// <summary>
     /// 長押しボタン用クラス
@@ -14,7 +14,7 @@ namespace Mhl
         UnityEngine.EventSystems.IPointerDownHandler,
         UnityEngine.EventSystems.IPointerUpHandler
     {
-        private Mhl.ButtonLongPressSubject longPressSubject = new Mhl.ButtonLongPressSubject();
+        private Mhl.Ui.Button.ButtonLongPressSubject longPressSubject = new Mhl.Ui.Button.ButtonLongPressSubject();
 
 
         private void Update()
@@ -47,7 +47,7 @@ namespace Mhl
         /// オブザーバー登録
         /// </summary>
         /// <param name="observer"></param>
-        public void AddLongPressObserver(Mhl.IButtonLongPressObserverable observer)
+        public void AddLongPressObserver(Mhl.Ui.Button.IButtonLongPressObserverable observer)
         {
             longPressSubject.Add(observer);
         }

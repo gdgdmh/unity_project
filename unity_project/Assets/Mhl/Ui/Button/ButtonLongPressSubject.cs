@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Mhl
+namespace Mhl.Ui.Button
 {
     /// <summary>
     /// ボタン長押しサブジェクトクラス
     /// </summary>
-    public class ButtonLongPressSubject : Mhl.GenericSubject<Mhl.IButtonLongPressObserverable>
+    public class ButtonLongPressSubject : Mhl.System.Observer.GenericSubject<Mhl.Ui.Button.IButtonLongPressObserverable>
     {
         private bool isPushing = false; // ボタンを押しているか
         private int parameter = 0; // Callback用のパラメータ
