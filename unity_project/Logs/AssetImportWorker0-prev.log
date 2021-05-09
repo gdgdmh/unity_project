@@ -12,118 +12,113 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49968
+50811
 Successfully changed project path to: /Users/mh/Git/unity_project/unity_project
 /Users/mh/Git/unity_project/unity_project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 69.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path /Applications/2021.1.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mh/Git/unity_project/unity_project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-05-03 21:27:43.774 Unity[93922:12201187] DELL U2412M preferred device: AMD Radeon Pro Vega 20 (high power)
-2021-05-03 21:27:43.774 Unity[93922:12201187] Metal devices available: 2
-2021-05-03 21:27:43.774 Unity[93922:12201187] 0: AMD Radeon Pro Vega 20 (high power)
-2021-05-03 21:27:43.774 Unity[93922:12201187] 1: Intel(R) UHD Graphics 630 (low power)
-2021-05-03 21:27:43.777 Unity[93922:12201187] Using device AMD Radeon Pro Vega 20 (high power)
+2021-05-09 10:32:59.680 Unity[10287:220936] DELL U2412M preferred device: AMD Radeon Pro Vega 20 (high power)
+2021-05-09 10:32:59.680 Unity[10287:220936] Metal devices available: 2
+2021-05-09 10:32:59.680 Unity[10287:220936] 0: AMD Radeon Pro Vega 20 (high power)
+2021-05-09 10:32:59.680 Unity[10287:220936] 1: Intel(R) UHD Graphics 630 (low power)
+2021-05-09 10:32:59.681 Unity[10287:220936] Using device AMD Radeon Pro Vega 20 (high power)
 Initializing Metal device caps: AMD Radeon Pro Vega 20
 Initialize mono
 Mono path[0] = '/Applications/2021.1.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2021.1.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2021.1.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56922
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56287
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2021.1.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/2021.1.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000615 seconds.
+Registered in 0.000693 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 86.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 66.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.052 seconds
+- Completed reload, in  2.961 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001544 seconds.
+Registered in 0.001474 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/2021.1.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2706 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 181.6 MB.
 System memory in use after: 181.8 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3161.
-Total: 1.831648 ms (FindLiveObjects: 0.194650 ms CreateObjectMapping: 0.108008 ms MarkObjects: 1.462548 ms  DeleteObjects: 0.065644 ms)
+Total: 1.806666 ms (FindLiveObjects: 0.197658 ms CreateObjectMapping: 0.089339 ms MarkObjects: 1.458476 ms  DeleteObjects: 0.060481 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Mh
-  artifactKey: Guid(e8349a0bd931d41d793af9c389607ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh using Guid(e8349a0bd931d41d793af9c389607ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa61a39704d02cace91feaaa7281bc28') in 0.003977 seconds 
+  path: Assets/Mh/FlappyBird
+  artifactKey: Guid(ee66ead0d136346d5a21e1fa194c620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird using Guid(ee66ead0d136346d5a21e1fa194c620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469aef51df35fe69b34b73488ffd1035') in 0.004434 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.389679 seconds.
-  path: Assets/Mh/Wt/Materials
-  artifactKey: Guid(407632009b6a8434390914504e14b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Materials using Guid(407632009b6a8434390914504e14b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e53de0e34bbf8793e97e7a565a490e1') in 0.001694 seconds 
+  Time since last request: 93.929130 seconds.
+  path: Assets/Mh/FlappyBird/Materials
+  artifactKey: Guid(4b73333607d5d47b09b390ff0e2d3a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Materials using Guid(4b73333607d5d47b09b390ff0e2d3a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1bd2b1ee07acbb6da43c6646e53538') in 0.001363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.013901 seconds.
-  path: Assets/Mh/Wt/Models
-  artifactKey: Guid(437c5a4d98bb942c18db4f3c97f1b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Models using Guid(437c5a4d98bb942c18db4f3c97f1b53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca00922ef5a51e84e5a15a5af62af34') in 0.001647 seconds 
+  Time since last request: 8.459409 seconds.
+  path: Assets/Mh/FlappyBird/Models
+  artifactKey: Guid(7868f706b1a144fafa8d06a5ab2eb1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Models using Guid(7868f706b1a144fafa8d06a5ab2eb1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa35d63921f7673ae6d29f78d9178e3') in 0.001441 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.375352 seconds.
-  path: Assets/Mh/Wt/Prefabs
-  artifactKey: Guid(770662976fb1c4e7ab9285ba0af99ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Prefabs using Guid(770662976fb1c4e7ab9285ba0af99ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7c0b6d5a376ab77e2783b002a8da8f') in 0.002123 seconds 
+  Time since last request: 11.165782 seconds.
+  path: Assets/Mh/FlappyBird/Prefabs
+  artifactKey: Guid(4b4036f4b36894bfda4fb59d92b53166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Prefabs using Guid(4b4036f4b36894bfda4fb59d92b53166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f8d9a28ffd8f95ec8daf5ea9f5fe5a') in 0.001428 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.889757 seconds.
-  path: Assets/Mh/Wt/Resources
-  artifactKey: Guid(9a922d34b9397407f854d81e3ec78852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Resources using Guid(9a922d34b9397407f854d81e3ec78852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb97e09877f31e4b2cb180e06c8f398e') in 0.001421 seconds 
+  Time since last request: 9.291485 seconds.
+  path: Assets/Mh/FlappyBird/Resources
+  artifactKey: Guid(eca4d5e42a503491e839aab754e42c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Resources using Guid(eca4d5e42a503491e839aab754e42c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785d0758f0733721ee7975e939f3c08b') in 0.001396 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.957518 seconds.
-  path: Assets/Mh/Wt/Scene
-  artifactKey: Guid(1d5a7b4ade5e8447f8bf1462786b2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Scene using Guid(1d5a7b4ade5e8447f8bf1462786b2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fa41dd8b50ac5eae08265a571bef89') in 0.001426 seconds 
+  Time since last request: 8.337865 seconds.
+  path: Assets/Mh/FlappyBird/Scenes
+  artifactKey: Guid(f09bb190300a24ef19257f67e6df60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Scenes using Guid(f09bb190300a24ef19257f67e6df60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd01d2e333c9d6ad54372e4d84ab9bf') in 0.001358 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.297189 seconds.
-  path: Assets/Mh/Wt/Scenes
-  artifactKey: Guid(1d5a7b4ade5e8447f8bf1462786b2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Scenes using Guid(1d5a7b4ade5e8447f8bf1462786b2a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd8a202ec94467253daba9b4ff27390') in 0.000879 seconds 
+  Time since last request: 9.322481 seconds.
+  path: Assets/Mh/FlappyBird/Scripts
+  artifactKey: Guid(0ae304adfd09f42b9af6c2c3d21c25b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Scripts using Guid(0ae304adfd09f42b9af6c2c3d21c25b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85ee927224e59cb59bc7c0b6bd89015') in 0.001376 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.550371 seconds.
-  path: Assets/Mh/Wt/Scripts
-  artifactKey: Guid(c777c0c9a75974f4d86825a44d4bd8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Scripts using Guid(c777c0c9a75974f4d86825a44d4bd8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deb179ad87f1bf8f30786d04cc05fce') in 0.001549 seconds 
+  Time since last request: 17.785476 seconds.
+  path: Assets/Mh/FlappyBird/Shaders
+  artifactKey: Guid(2a18c9770654343a89d42081a4247bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Shaders using Guid(2a18c9770654343a89d42081a4247bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f52f0ee22a536e8a94584eebf61c351') in 0.001347 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.864338 seconds.
-  path: Assets/Mh/Wt/Shaders
-  artifactKey: Guid(23bccc076f76c4812973db2e198c001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Shaders using Guid(23bccc076f76c4812973db2e198c001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d8600609dd6f70e96b90d334279e7d') in 0.002046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.779583 seconds.
-  path: Assets/Mh/Wt/Textures
-  artifactKey: Guid(7af9e220447bd4778944299952be05be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/Wt/Textures using Guid(7af9e220447bd4778944299952be05be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf68c1ed7a92de708b896468c51c5d0') in 0.001509 seconds 
+  Time since last request: 23.694089 seconds.
+  path: Assets/Mh/FlappyBird/Textures
+  artifactKey: Guid(e1e73cf5c50464f8cb991f0b05b8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mh/FlappyBird/Textures using Guid(e1e73cf5c50464f8cb991f0b05b8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9a2671784ab3e16b1a8b92c2e3381a') in 0.001323 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
