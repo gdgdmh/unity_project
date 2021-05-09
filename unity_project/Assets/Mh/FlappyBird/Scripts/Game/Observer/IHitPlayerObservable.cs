@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// プレイヤーへのヒット通知
-/// </summary>
-public interface IHitPlayerObservable
+namespace Mh.Flappybird
 {
     /// <summary>
-    /// ヒットした
+    /// プレイヤーへのヒット通知
     /// </summary>
-    /// <param name="tag">当たったギミック,敵のタグ</param>
-    void Hit(string tag);
+    public interface IHitPlayerObservable
+    {
+        /// <summary>
+        /// ヒットした
+        /// </summary>
+        /// <param name="tag">当たったギミック,敵のタグ</param>
+        void Hit(string tag);
 
+    }
 }
