@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Mh/FlappyBird/Scenes/FlappyBirdGame.unity
+- path: Assets/Mh/Wt/Scenes/WtGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

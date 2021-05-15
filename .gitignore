@@ -58,3 +58,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+unity_project/Logs/shadercompiler-UnityShaderCompiler1.log
+unity_project/Logs/shadercompiler-UnityShaderCompiler2.log
