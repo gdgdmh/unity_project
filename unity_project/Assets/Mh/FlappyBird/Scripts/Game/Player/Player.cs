@@ -12,7 +12,9 @@ namespace Mh.Flappybird
         public static readonly float MaxDownSpeed = -7.0f;
         public static readonly float MaxForwardSpeed = 2.0f;
         public Vector3 velocity = new Vector3(0.0f, 0.0f, 0.0f);
-        private Mhl.Input.GameController.GameController controller = new Mhl.Input.GameController.GameController();
+        private Collider playerCollider = null;
+        private Mhl.Input.GameController.GameController controller = null;
+        private Mhl.Action.Hit.IHitObjectEvent hitObjectEvent = null;
 
         /// <summary>
         /// 開始
@@ -20,6 +22,9 @@ namespace Mh.Flappybird
         void Start()
         {
             ApplyVelocity();
+            playerCollider = GetComponent<Collider>();
+            controller = new Mhl.Input.GameController.GameController();
+            hitObjectEvent = new PlayerHitObject(this.gameObject);
         }
 
         /// <summary>
@@ -39,6 +44,7 @@ namespace Mh.Flappybird
         void UpdateController()
         {
             // コントローラー処理の更新
+            Debug.Assert(controller != null);
             controller.Update();
         }
 
@@ -138,29 +144,12 @@ namespace Mh.Flappybird
         private void OnTriggerEnter(Collider other)
         {
             Debug.Log("OnTriggerEnter(Player) tag(" + other.tag + ") name(" + other.name + ")");
-            if (other.tag == "iron_thorns_ball")
+            hitObjectEvent.HitEvent(playerCollider, other);
+            if (this.gameObject == null)
             {
-                // プレイヤーの削除
-                OnDestroyPlayer();
+                // 消された時は来ないっぽいのでDelegateで伝える必要あり
+                Debug.Log("Deleted");
             }
-        }
-
-        /// <summary>
-        /// プレイヤーの削除処理
-        /// </summary>
-        private void OnDestroyPlayer()
-        {
-            // プレイヤーオブジェクト削除
-            DestoryPlayerObject();
-        }
-
-        /// <summary>
-        /// プレイヤーのゲームオブジェクトの削除
-        /// </summary>
-        private void DestoryPlayerObject()
-        {
-            // ゲームオブジェクトを削除
-            Destroy(this.gameObject);
         }
 
         /// <summary>
