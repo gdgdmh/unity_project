@@ -12,178 +12,125 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55882
+59449
 Successfully changed project path to: /Users/mh/GitFork/unity_project/unity_project
 /Users/mh/GitFork/unity_project/unity_project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path /Applications/2021.1.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mh/GitFork/unity_project/unity_project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-06-12 16:39:33.875 Unity[40105:6631371] DELL U2412M preferred device: AMD Radeon Pro Vega 20 (high power)
-2021-06-12 16:39:33.875 Unity[40105:6631371] Metal devices available: 2
-2021-06-12 16:39:33.875 Unity[40105:6631371] 0: AMD Radeon Pro Vega 20 (high power)
-2021-06-12 16:39:33.875 Unity[40105:6631371] 1: Intel(R) UHD Graphics 630 (low power)
-2021-06-12 16:39:33.876 Unity[40105:6631371] Using device AMD Radeon Pro Vega 20 (high power)
+2021-08-09 21:33:15.464 Unity[42688:8289754] DELL U2412M preferred device: AMD Radeon Pro Vega 20 (high power)
+2021-08-09 21:33:15.464 Unity[42688:8289754] Metal devices available: 2
+2021-08-09 21:33:15.464 Unity[42688:8289754] 0: AMD Radeon Pro Vega 20 (high power)
+2021-08-09 21:33:15.464 Unity[42688:8289754] 1: Intel(R) UHD Graphics 630 (low power)
+2021-08-09 21:33:15.464 Unity[42688:8289754] Using device AMD Radeon Pro Vega 20 (high power)
 Initializing Metal device caps: AMD Radeon Pro Vega 20
 Initialize mono
 Mono path[0] = '/Applications/2021.1.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2021.1.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2021.1.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56105
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2021.1.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/2021.1.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000888 seconds.
+Registered in 0.000603 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 87.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.611 seconds
+- Completed reload, in  4.082 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002119 seconds.
+Registered in 0.001525 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  1.282 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/2021.1.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.1 MB.
-System memory in use after: 182.2 MB.
+Unloading 2717 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.2 MB.
+System memory in use after: 182.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3169.
-Total: 1.936215 ms (FindLiveObjects: 0.202690 ms CreateObjectMapping: 0.090677 ms MarkObjects: 1.567586 ms  DeleteObjects: 0.074428 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.4 MB.
-System memory in use after: 127.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3169.
-Total: 1.464849 ms (FindLiveObjects: 0.152853 ms CreateObjectMapping: 0.080031 ms MarkObjects: 1.203820 ms  DeleteObjects: 0.027659 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3172.
+Total: 2.115109 ms (FindLiveObjects: 0.227651 ms CreateObjectMapping: 0.126804 ms MarkObjects: 1.674340 ms  DeleteObjects: 0.085223 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs
-  artifactKey: Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs using Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69c52c88fee4b7a56cb2eb0b34ae2cc') in 0.404354 seconds 
+  path: Assets/Mhl/Ui/Dialog/IDialogOk.cs
+  artifactKey: Guid(7b83365ead0de4c458adea6aacf742c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mhl/Ui/Dialog/IDialogOk.cs using Guid(7b83365ead0de4c458adea6aacf742c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01300c5bfb32442d3a3bed1b5aef223b') in 0.568015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Mhl/Ui/Dialog/IDialogYesNo.cs
+  artifactKey: Guid(d66b7cfe5da4349b4a671b4ac8de86f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mhl/Ui/Dialog/IDialogYesNo.cs using Guid(d66b7cfe5da4349b4a671b4ac8de86f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6322a23e1890605cc4abd5c67dc25f79') in 0.002990 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002163 seconds.
+Registered in 0.001695 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
+- Completed reload, in  0.882 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 185.6 MB.
 System memory in use after: 185.8 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3172.
-Total: 1.533038 ms (FindLiveObjects: 0.161558 ms CreateObjectMapping: 0.080641 ms MarkObjects: 1.249372 ms  DeleteObjects: 0.040785 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3175.
+Total: 1.585454 ms (FindLiveObjects: 0.162929 ms CreateObjectMapping: 0.082015 ms MarkObjects: 1.300110 ms  DeleteObjects: 0.039696 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6554.479570 seconds.
-  path: Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs
-  artifactKey: Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs using Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea008ba6fa0d3e90b400e097d4ff7ae') in 0.006016 seconds 
+  Time since last request: 1471.100185 seconds.
+  path: Assets/Mhl/Ui/Dialog/IDialogYesNo.cs
+  artifactKey: Guid(d66b7cfe5da4349b4a671b4ac8de86f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mhl/Ui/Dialog/IDialogYesNo.cs using Guid(d66b7cfe5da4349b4a671b4ac8de86f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11eab8627abfd147cf5af8644556a65') in 0.006201 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001496 seconds.
+Registered in 0.002790 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.917 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 185.9 MB.
 System memory in use after: 186.1 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3175.
-Total: 1.533918 ms (FindLiveObjects: 0.155563 ms CreateObjectMapping: 0.075849 ms MarkObjects: 1.265098 ms  DeleteObjects: 0.036791 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 555.842875 seconds.
-  path: Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs
-  artifactKey: Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs using Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bee99a054a3ce92e18e26b15baea71') in 0.005447 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001711 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.3 MB.
-
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3178.
-Total: 1.617247 ms (FindLiveObjects: 0.206534 ms CreateObjectMapping: 0.091495 ms MarkObjects: 1.278911 ms  DeleteObjects: 0.039657 ms)
+Total: 3.242213 ms (FindLiveObjects: 0.163991 ms CreateObjectMapping: 0.077841 ms MarkObjects: 2.843031 ms  DeleteObjects: 0.156551 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 259.762221 seconds.
-  path: Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs
-  artifactKey: Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mh/FlappyBird/Scripts/Game/Player/PlayerHitObject.cs using Guid(036347a25c70240fd97e49e599312ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b69529a35d02478474a378db6623b0') in 0.005663 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2698 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.4 MB.
-System memory in use after: 186.6 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3181.
-Total: 1.667900 ms (FindLiveObjects: 0.199333 ms CreateObjectMapping: 0.080767 ms MarkObjects: 1.349781 ms  DeleteObjects: 0.037399 ms)
-
+  Time since last request: 1008.638240 seconds.
+  path: Assets/Mhl/Ui/Dialog/DialogStatus.cs
+  artifactKey: Guid(3320679ec3d0542a0b1978a1309e0ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mhl/Ui/Dialog/DialogStatus.cs using Guid(3320679ec3d0542a0b1978a1309e0ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6841c7caf772a307582929a719659e') in 0.006968 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
