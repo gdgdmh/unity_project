@@ -24,6 +24,7 @@ namespace Mh.Flappybird
                     // オブジェクト自体削除するのでGameObject参照を消しておく
                     Object.Destroy(player.gameObject);
                     player = null;
+                    UnityEngine.Debug.Log("aaa");
                 }
             }
         }

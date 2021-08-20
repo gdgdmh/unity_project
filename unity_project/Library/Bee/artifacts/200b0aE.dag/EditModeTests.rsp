@@ -313,6 +313,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/EditModeTests/EditModeTest.cs"
+"Assets/EditModeTests/Mhl/Test/TestParameter.cs"
+"Assets/EditModeTests/Test/Mhl_Test_TestParameter.cs"
 -langversion:8.0
 
 /deterministic
