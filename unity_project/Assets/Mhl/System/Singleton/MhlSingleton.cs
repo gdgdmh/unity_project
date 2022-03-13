@@ -25,6 +25,7 @@ namespace Mhl.System.Singleton
         {
             singletonObject = new Type();
             // クリーンアップ関数に登録
+
         }
 
         private static void Cleanup()
