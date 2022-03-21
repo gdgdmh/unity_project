@@ -18,7 +18,15 @@ namespace Mhl.TestCode
         public void Task()
         {
             UnityEngine.Debug.Log("TestMhl start");
+            TestRandomIntSystem();
             UnityEngine.Debug.Log("TestMhl end");
+        }
+
+        public void TestRandomIntSystem()
+        {
+            Mhl.TestCode.List.System.Random.Integer.TestRandomIntSystem t = new TestCode.List.System.Random.Integer.TestRandomIntSystem();
+            UnityEngine.Debug.Assert(t != null);
+            t.UnitTest();
         }
     }
 }
