@@ -348,6 +348,7 @@
 "Assets/Mhl/System/Test/IUnitTestable.cs"
 "Assets/Mhl/System/Test/UnitTestBase.cs"
 "Assets/Mhl/System/Test/UnitTestExecuteList.cs"
+"Assets/Mhl/TestCode/TestMhl.cs"
 "Assets/Mhl/Ui/Button/ButtonLongPressSubject.cs"
 "Assets/Mhl/Ui/Button/IButtonLongPressObserverable.cs"
 "Assets/Mhl/Ui/Button/LongPressButton.cs"
