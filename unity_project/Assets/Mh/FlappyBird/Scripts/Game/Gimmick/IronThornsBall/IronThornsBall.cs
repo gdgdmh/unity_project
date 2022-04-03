@@ -29,6 +29,7 @@ namespace Mh.Flappybird
             {
                 // プレイヤーと当たったら削除
                 OnDestroyIronThornsBall();
+                UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
             }
         }
 
